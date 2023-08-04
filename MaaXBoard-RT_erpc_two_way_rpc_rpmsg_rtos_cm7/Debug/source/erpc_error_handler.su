@@ -1,0 +1,1 @@
+../source/erpc_error_handler.cpp:22:6:void erpc_error_handler(erpc_status_t, uint32_t)	16	static

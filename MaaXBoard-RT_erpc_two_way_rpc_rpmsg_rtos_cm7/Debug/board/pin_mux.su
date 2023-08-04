@@ -1,0 +1,7 @@
+../board/pin_mux.c:96:6:BOARD_InitPins	48	static
+../board/pin_mux.c:47:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:392:6:BOARD_InitMipiPanelPins	0	static
+../board/pin_mux.c:484:6:BOARD_InitPins_Pdm	0	static
+../board/pin_mux.c:544:6:BOARD_InitPins_Sai	0	static
+../board/pin_mux.c:591:6:BOARD_InitEnetPins	0	static
+../board/pin_mux.c:667:6:BOARD_InitEnet1GPins	0	static

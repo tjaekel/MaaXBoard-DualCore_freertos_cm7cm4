@@ -1,0 +1,9 @@
+../erpc/port/erpc_port_freertos.cpp:20:7:void* operator new(std::size_t)	24	static
+../erpc/port/erpc_port_freertos.cpp:26:7:void* operator new(std::size_t, const std::nothrow_t&)	24	static
+../erpc/port/erpc_port_freertos.cpp:33:7:void* operator new [](std::size_t)	24	static
+../erpc/port/erpc_port_freertos.cpp:39:7:void* operator new [](std::size_t, const std::nothrow_t&)	24	static
+../erpc/port/erpc_port_freertos.cpp:46:6:void operator delete(void*)	16	static
+../erpc/port/erpc_port_freertos.cpp:51:6:void operator delete [](void*)	16	static
+../erpc/port/erpc_port_freertos.cpp:56:7:void* erpc_malloc(size_t)	24	static
+../erpc/port/erpc_port_freertos.cpp:62:6:void erpc_free(void*)	16	static
+../erpc/port/erpc_port_freertos.cpp:69:17:void __cxa_pure_virtual()	4	static

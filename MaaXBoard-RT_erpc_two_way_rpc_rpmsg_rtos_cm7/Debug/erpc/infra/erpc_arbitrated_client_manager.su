@@ -1,0 +1,12 @@
+../erpc/infra/erpc_codec.hpp:78:20:erpc::MessageBuffer* erpc::Codec::getBuffer()	16	static
+../erpc/infra/erpc_codec.hpp:112:10:bool erpc::Codec::isStatusOk()	16	static
+../erpc/infra/erpc_codec.hpp:119:10:void erpc::Codec::updateStatus(erpc_status_t)	16	static
+../erpc/infra/erpc_client_server_common.hpp:96:5:erpc::ClientServerCommon::~ClientServerCommon()	16	static
+../erpc/infra/erpc_client_manager.h:76:13:erpc::ClientManager::~ClientManager()	16	static
+../erpc/infra/erpc_client_manager.h:76:13:virtual erpc::ClientManager::~ClientManager()	16	static
+../erpc/infra/erpc_client_manager.h:208:12:erpc::Codec* erpc::RequestContext::getCodec()	16	static
+../erpc/infra/erpc_client_manager.h:222:10:bool erpc::RequestContext::isOneway() const	16	static
+../erpc/infra/erpc_arbitrated_client_manager.cpp:32:6:void erpc::ArbitratedClientManager::setArbitrator(erpc::TransportArbitrator*)	16	static
+../erpc/infra/erpc_arbitrated_client_manager.cpp:38:6:virtual void erpc::ArbitratedClientManager::performClientRequest(erpc::RequestContext&)	40	static
+../erpc/infra/erpc_arbitrated_client_manager.hpp:40:7:erpc::ArbitratedClientManager::~ArbitratedClientManager()	16	static
+../erpc/infra/erpc_arbitrated_client_manager.hpp:40:7:virtual erpc::ArbitratedClientManager::~ArbitratedClientManager()	16	static

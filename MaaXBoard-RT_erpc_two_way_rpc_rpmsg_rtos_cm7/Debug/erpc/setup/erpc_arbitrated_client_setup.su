@@ -1,0 +1,28 @@
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_message_buffer.hpp:45:5:erpc::MessageBuffer::MessageBuffer()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_message_buffer.hpp:197:9:erpc::MessageBuffer::Cursor::Cursor()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_codec.hpp:61:5:erpc::Codec::Codec()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_codec.hpp:85:18:virtual void erpc::Codec::setBuffer(erpc::MessageBuffer&)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_codec.hpp:93:18:virtual void erpc::Codec::reset()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_codec.hpp:447:5:erpc::CodecFactory::CodecFactory()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_server_common.hpp:63:5:erpc::ClientServerCommon::ClientServerCommon()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_server_common.hpp:103:10:void erpc::ClientServerCommon::setMessageBufferFactory(erpc::MessageBufferFactory*)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_server_common.hpp:110:10:void erpc::ClientServerCommon::setCodecFactory(erpc::CodecFactory*)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_server_common.hpp:117:20:erpc::CodecFactory* erpc::ClientServerCommon::getCodecFactory()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_manager.h:62:5:erpc::ClientManager::ClientManager()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_manager.h:104:10:void erpc::ClientManager::setErrorHandler(client_error_handler_t)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_manager.h:122:10:void erpc::ClientManager::setServer(erpc::Server*)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_manager.h:129:10:void erpc::ClientManager::setServerThreadId(erpc::Thread::thread_id_t)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_arbitrated_client_manager.hpp:48:5:erpc::ArbitratedClientManager::ArbitratedClientManager()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_arbitrated_client_manager.hpp:66:26:erpc::TransportArbitrator* erpc::ArbitratedClientManager::getArbitrator()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_basic_codec.hpp:46:5:erpc::BasicCodec::BasicCodec()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_transport_arbitrator.hpp:61:10:void erpc::TransportArbitrator::setSharedTransport(erpc::Transport*)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_transport_arbitrator.hpp:68:16:erpc::Transport* erpc::TransportArbitrator::getSharedTransport()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_transport_arbitrator.hpp:75:10:void erpc::TransportArbitrator::setCodec(erpc::Codec*)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_transport_arbitrator.hpp:82:12:erpc::Codec* erpc::TransportArbitrator::getCodec()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_basic_codec.hpp:378:7:erpc::BasicCodecFactory::BasicCodecFactory()	16	static
+../erpc/setup/erpc_arbitrated_client_setup.cpp:46:15:ClientType* erpc_arbitrated_client_init(erpc_transport_t, erpc_mbf_t, ErpcTransport**)	72	static
+../erpc/setup/erpc_arbitrated_client_setup.cpp:154:6:void erpc_arbitrated_client_set_error_handler(erpc_client_t, client_error_handler_t)	24	static
+../erpc/setup/erpc_arbitrated_client_setup.cpp:163:6:void erpc_arbitrated_client_set_crc(erpc_client_t, uint32_t)	24	static
+../erpc/setup/erpc_arbitrated_client_setup.cpp:173:6:void erpc_arbitrated_client_set_server(erpc_client_t, erpc_server_t)	24	static
+../erpc/setup/erpc_arbitrated_client_setup.cpp:182:6:void erpc_arbitrated_client_set_server_thread_id(erpc_client_t, void*)	24	static
+../erpc/setup/erpc_arbitrated_client_setup.cpp:223:6:void erpc_arbitrated_client_deinit(erpc_client_t)	40	static

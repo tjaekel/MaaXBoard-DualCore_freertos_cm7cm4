@@ -1,0 +1,9 @@
+../erpc/infra/erpc_codec.hpp:104:19:erpc_status_t erpc::Codec::getStatus()	16	static
+../erpc/infra/erpc_server.hpp:63:14:uint32_t erpc::Service::getServiceId() const	16	static
+../erpc/infra/erpc_server.hpp:70:14:erpc::Service* erpc::Service::getNext()	16	static
+../erpc/infra/erpc_server.hpp:77:10:void erpc::Service::setNext(erpc::Service*)	16	static
+../erpc/infra/erpc_server.cpp:24:6:void erpc::Server::addService(erpc::Service*)	24	static
+../erpc/infra/erpc_server.cpp:43:6:void erpc::Server::removeService(erpc::Service*)	24	static
+../erpc/infra/erpc_server.cpp:65:15:virtual erpc_status_t erpc::Server::readHeadOfMessage(erpc::Codec*, erpc::message_type_t&, uint32_t&, uint32_t&, uint32_t&)	40	static
+../erpc/infra/erpc_server.cpp:72:15:virtual erpc_status_t erpc::Server::processMessage(erpc::Codec*, erpc::message_type_t, uint32_t, uint32_t, uint32_t)	48	static
+../erpc/infra/erpc_server.cpp:100:10:virtual erpc::Service* erpc::Server::findServiceWithId(uint32_t)	24	static

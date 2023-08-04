@@ -1,0 +1,22 @@
+../erpc/port/erpc_threading_freertos.cpp:29:1:erpc::Thread::Thread(const char*)	16	static
+../erpc/port/erpc_threading_freertos.cpp:40:1:erpc::Thread::Thread(thread_entry_t, uint32_t, uint32_t, const char*, erpc::Thread::thread_stack_pointer)	24	static
+../erpc/port/erpc_threading_freertos.cpp:52:1:erpc::Thread::~Thread()	16	static
+../erpc/port/erpc_threading_freertos.cpp:52:1:virtual erpc::Thread::~Thread()	16	static
+../erpc/port/erpc_threading_freertos.cpp:54:6:void erpc::Thread::init(thread_entry_t, uint32_t, uint32_t, erpc::Thread::thread_stack_pointer)	24	static
+../erpc/port/erpc_threading_freertos.cpp:62:6:void erpc::Thread::start(void*)	32	static
+../erpc/port/erpc_threading_freertos.cpp:110:6:bool erpc::Thread::operator==(erpc::Thread&)	16	static
+../erpc/port/erpc_threading_freertos.cpp:115:9:static erpc::Thread* erpc::Thread::getCurrentThread()	16	static
+../erpc/port/erpc_threading_freertos.cpp:134:6:static void erpc::Thread::sleep(uint32_t)	16	static
+../erpc/port/erpc_threading_freertos.cpp:141:6:virtual void erpc::Thread::threadEntryPoint()	16	static
+../erpc/port/erpc_threading_freertos.cpp:149:6:static void erpc::Thread::threadEntryPointStub(void*)	32	static
+../erpc/port/erpc_threading_freertos.cpp:204:1:erpc::Mutex::Mutex()	16	static
+../erpc/port/erpc_threading_freertos.cpp:216:1:erpc::Mutex::~Mutex()	16	static
+../erpc/port/erpc_threading_freertos.cpp:221:6:bool erpc::Mutex::tryLock()	16	static
+../erpc/port/erpc_threading_freertos.cpp:227:6:bool erpc::Mutex::lock()	16	static
+../erpc/port/erpc_threading_freertos.cpp:232:6:bool erpc::Mutex::unlock()	16	static
+../erpc/port/erpc_threading_freertos.cpp:237:1:erpc::Semaphore::Semaphore(int)	16	static
+../erpc/port/erpc_threading_freertos.cpp:250:1:erpc::Semaphore::~Semaphore()	16	static
+../erpc/port/erpc_threading_freertos.cpp:255:6:void erpc::Semaphore::put()	16	static
+../erpc/port/erpc_threading_freertos.cpp:260:6:void erpc::Semaphore::putFromISR()	24	static
+../erpc/port/erpc_threading_freertos.cpp:267:6:bool erpc::Semaphore::get(uint32_t)	16	static
+../erpc/port/erpc_threading_freertos.cpp:296:5:int erpc::Semaphore::getCount() const	16	static

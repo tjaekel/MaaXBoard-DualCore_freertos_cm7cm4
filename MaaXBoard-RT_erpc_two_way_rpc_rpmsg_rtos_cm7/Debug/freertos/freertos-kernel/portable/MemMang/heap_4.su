@@ -1,0 +1,9 @@
+../freertos/freertos-kernel/portable/MemMang/heap_4.c:376:13:prvHeapInit	0	static
+../freertos/freertos-kernel/portable/MemMang/heap_4.c:421:13:prvInsertBlockIntoFreeList	4	static
+../freertos/freertos-kernel/portable/MemMang/heap_4.c:137:8:pvPortMalloc	16	static
+../freertos/freertos-kernel/portable/MemMang/heap_4.c:286:6:vPortFree	16	static
+../freertos/freertos-kernel/portable/MemMang/heap_4.c:339:8:xPortGetFreeHeapSize	0	static
+../freertos/freertos-kernel/portable/MemMang/heap_4.c:345:8:xPortGetMinimumEverFreeHeapSize	0	static
+../freertos/freertos-kernel/portable/MemMang/heap_4.c:351:6:vPortInitialiseBlocks	0	static
+../freertos/freertos-kernel/portable/MemMang/heap_4.c:357:8:pvPortCalloc	16	static
+../freertos/freertos-kernel/portable/MemMang/heap_4.c:484:6:vPortGetHeapStats	24	static

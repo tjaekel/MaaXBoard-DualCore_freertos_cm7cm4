@@ -1,0 +1,14 @@
+../mcmgr/mcmgr_mu_internal.c:33:28:MU_Tx3EmptyFlagISR	0	static
+../mcmgr/mcmgr_mu_internal.c:34:28:MU_Tx2EmptyFlagISR	0	static
+../mcmgr/mcmgr_mu_internal.c:35:28:MU_Tx1EmptyFlagISR	0	static
+../mcmgr/mcmgr_mu_internal.c:36:28:MU_Tx0EmptyFlagISR	0	static
+../mcmgr/mcmgr_mu_internal.c:37:28:MU_Rx3FullFlagISR	0	static
+../mcmgr/mcmgr_mu_internal.c:38:28:MU_Rx2FullFlagISR	0	static
+../mcmgr/mcmgr_mu_internal.c:39:28:MU_Rx1FullFlagISR	0	static
+../mcmgr/mcmgr_mu_internal.c:40:28:MU_Rx0FullFlagISR	0	static
+../mcmgr/mcmgr_mu_internal.c:41:28:MU_GenInt3FlagISR	0	static
+../mcmgr/mcmgr_mu_internal.c:42:28:MU_GenInt2FlagISR	0	static
+../mcmgr/mcmgr_mu_internal.c:43:28:MU_GenInt1FlagISR	0	static
+../mcmgr/mcmgr_mu_internal.c:44:28:MU_GenInt0FlagISR	0	static
+../mcmgr/mcmgr_mu_internal.c:64:13:mu_isr	16	static
+../mcmgr/mcmgr_mu_internal.c:128:5:MUA_IRQHandler	8	static

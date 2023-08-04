@@ -1,0 +1,66 @@
+../erpc/infra/erpc_message_buffer.hpp:45:5:erpc::MessageBuffer::MessageBuffer()	16	static
+../erpc/infra/erpc_message_buffer.hpp:87:14:uint8_t* erpc::MessageBuffer::get()	16	static
+../erpc/infra/erpc_message_buffer.hpp:101:14:uint16_t erpc::MessageBuffer::getLength() const	16	static
+../erpc/infra/erpc_message_buffer.hpp:108:14:uint16_t erpc::MessageBuffer::getUsed() const	16	static
+../erpc/infra/erpc_message_buffer.hpp:197:9:erpc::MessageBuffer::Cursor::Cursor()	16	static
+../erpc/infra/erpc_message_buffer.hpp:230:18:uint8_t* erpc::MessageBuffer::Cursor::get()	16	static
+../erpc/infra/erpc_message_buffer.hpp:246:18:uint16_t erpc::MessageBuffer::Cursor::getRemaining() const	24	static
+../erpc/infra/erpc_message_buffer.hpp:253:18:uint16_t erpc::MessageBuffer::Cursor::getRemainingUsed() const	24	static
+../erpc/infra/erpc_codec.hpp:61:5:erpc::Codec::Codec()	16	static
+../erpc/infra/erpc_codec.hpp:71:13:erpc::Codec::~Codec()	16	static
+../erpc/infra/erpc_codec.hpp:71:13:virtual erpc::Codec::~Codec()	16	static
+../erpc/infra/erpc_codec.hpp:85:18:virtual void erpc::Codec::setBuffer(erpc::MessageBuffer&)	16	static
+../erpc/infra/erpc_codec.hpp:93:18:virtual void erpc::Codec::reset()	16	static
+../erpc/infra/erpc_codec.hpp:112:10:bool erpc::Codec::isStatusOk()	16	static
+../erpc/infra/erpc_codec.hpp:119:10:void erpc::Codec::updateStatus(erpc_status_t)	16	static
+../erpc/infra/erpc_codec.hpp:452:13:erpc::CodecFactory::~CodecFactory()	16	static
+../erpc/infra/erpc_codec.hpp:452:13:virtual erpc::CodecFactory::~CodecFactory()	16	static
+../erpc/infra/erpc_basic_codec.hpp:46:5:erpc::BasicCodec::BasicCodec()	16	static
+../erpc/infra/erpc_basic_codec.cpp:29:6:virtual void erpc::BasicCodec::startWriteMessage(erpc::message_type_t, uint32_t, uint32_t, uint32_t)	32	static
+../erpc/infra/erpc_basic_codec.cpp:39:6:virtual void erpc::BasicCodec::writeData(const void*, uint32_t)	24	static
+../erpc/infra/erpc_basic_codec.cpp:47:6:virtual void erpc::BasicCodec::write(bool)	24	static
+../erpc/infra/erpc_basic_codec.cpp:55:6:virtual void erpc::BasicCodec::write(int8_t)	16	static
+../erpc/infra/erpc_basic_codec.cpp:60:6:virtual void erpc::BasicCodec::write(int16_t)	16	static
+../erpc/infra/erpc_basic_codec.cpp:67:6:virtual void erpc::BasicCodec::write(int32_t)	16	static
+../erpc/infra/erpc_basic_codec.cpp:74:6:virtual void erpc::BasicCodec::write(int64_t)	24	static
+../erpc/infra/erpc_basic_codec.cpp:81:6:virtual void erpc::BasicCodec::write(uint8_t)	16	static
+../erpc/infra/erpc_basic_codec.cpp:86:6:virtual void erpc::BasicCodec::write(uint16_t)	16	static
+../erpc/infra/erpc_basic_codec.cpp:93:6:virtual void erpc::BasicCodec::write(uint32_t)	16	static
+../erpc/infra/erpc_basic_codec.cpp:100:6:virtual void erpc::BasicCodec::write(uint64_t)	24	static
+../erpc/infra/erpc_basic_codec.cpp:107:6:virtual void erpc::BasicCodec::write(float)	16	static
+../erpc/infra/erpc_basic_codec.cpp:114:6:virtual void erpc::BasicCodec::write(double)	24	static
+../erpc/infra/erpc_basic_codec.cpp:121:6:virtual void erpc::BasicCodec::writePtr(uintptr_t)	24	static
+../erpc/infra/erpc_basic_codec.cpp:132:6:virtual void erpc::BasicCodec::writeString(uint32_t, const char*)	24	static
+../erpc/infra/erpc_basic_codec.cpp:138:6:virtual void erpc::BasicCodec::writeBinary(uint32_t, const uint8_t*)	24	static
+../erpc/infra/erpc_basic_codec.cpp:146:6:virtual void erpc::BasicCodec::startWriteList(uint32_t)	16	static
+../erpc/infra/erpc_basic_codec.cpp:152:6:virtual void erpc::BasicCodec::startWriteUnion(int32_t)	16	static
+../erpc/infra/erpc_basic_codec.cpp:158:6:virtual void erpc::BasicCodec::writeNullFlag(bool)	16	static
+../erpc/infra/erpc_basic_codec.cpp:163:6:virtual void erpc::BasicCodec::writeCallback(erpc::arrayOfFunPtr, uint8_t, erpc::funPtr)	32	static
+../erpc/infra/erpc_basic_codec.cpp:184:6:virtual void erpc::BasicCodec::writeCallback(erpc::funPtr, erpc::funPtr)	24	static
+../erpc/infra/erpc_basic_codec.cpp:194:6:virtual void erpc::BasicCodec::startReadMessage(erpc::message_type_t*, uint32_t*, uint32_t*, uint32_t*)	32	static
+../erpc/infra/erpc_basic_codec.cpp:215:6:virtual void erpc::BasicCodec::readData(void*, uint32_t)	24	static
+../erpc/infra/erpc_basic_codec.cpp:223:6:virtual void erpc::BasicCodec::read(bool*)	24	static
+../erpc/infra/erpc_basic_codec.cpp:234:6:virtual void erpc::BasicCodec::read(int8_t*)	16	static
+../erpc/infra/erpc_basic_codec.cpp:239:6:virtual void erpc::BasicCodec::read(int16_t*)	16	static
+../erpc/infra/erpc_basic_codec.cpp:248:6:virtual void erpc::BasicCodec::read(int32_t*)	16	static
+../erpc/infra/erpc_basic_codec.cpp:257:6:virtual void erpc::BasicCodec::read(int64_t*)	16	static
+../erpc/infra/erpc_basic_codec.cpp:266:6:virtual void erpc::BasicCodec::read(uint8_t*)	16	static
+../erpc/infra/erpc_basic_codec.cpp:271:6:virtual void erpc::BasicCodec::read(uint16_t*)	16	static
+../erpc/infra/erpc_basic_codec.cpp:280:6:virtual void erpc::BasicCodec::read(uint32_t*)	16	static
+../erpc/infra/erpc_basic_codec.cpp:289:6:virtual void erpc::BasicCodec::read(uint64_t*)	16	static
+../erpc/infra/erpc_basic_codec.cpp:298:6:virtual void erpc::BasicCodec::read(float*)	16	static
+../erpc/infra/erpc_basic_codec.cpp:307:6:virtual void erpc::BasicCodec::read(double*)	16	static
+../erpc/infra/erpc_basic_codec.cpp:316:6:virtual void erpc::BasicCodec::readPtr(uintptr_t*)	24	static
+../erpc/infra/erpc_basic_codec.cpp:334:6:virtual void erpc::BasicCodec::readString(uint32_t*, char**)	24	static
+../erpc/infra/erpc_basic_codec.cpp:339:6:virtual void erpc::BasicCodec::readBinary(uint32_t*, uint8_t**)	24	static
+../erpc/infra/erpc_basic_codec.cpp:370:6:virtual void erpc::BasicCodec::startReadList(uint32_t*)	16	static
+../erpc/infra/erpc_basic_codec.cpp:381:6:virtual void erpc::BasicCodec::startReadUnion(int32_t*)	16	static
+../erpc/infra/erpc_basic_codec.cpp:387:6:virtual void erpc::BasicCodec::readNullFlag(bool*)	24	static
+../erpc/infra/erpc_basic_codec.cpp:398:6:virtual void erpc::BasicCodec::readCallback(erpc::arrayOfFunPtr, uint8_t, void**)	32	static
+../erpc/infra/erpc_basic_codec.cpp:420:6:virtual void erpc::BasicCodec::readCallback(erpc::funPtr, void**)	24	static
+../erpc/infra/erpc_basic_codec.cpp:428:8:virtual erpc::Codec* erpc::BasicCodecFactory::create()	24	static
+../erpc/infra/erpc_basic_codec.cpp:433:6:virtual void erpc::BasicCodecFactory::dispose(erpc::Codec*)	16	static
+../erpc/infra/erpc_basic_codec.hpp:378:7:erpc::BasicCodecFactory::~BasicCodecFactory()	16	static
+../erpc/infra/erpc_basic_codec.hpp:378:7:virtual erpc::BasicCodecFactory::~BasicCodecFactory()	16	static
+../erpc/infra/erpc_basic_codec.hpp:41:7:erpc::BasicCodec::~BasicCodec()	16	static
+../erpc/infra/erpc_basic_codec.hpp:41:7:virtual erpc::BasicCodec::~BasicCodec()	16	static

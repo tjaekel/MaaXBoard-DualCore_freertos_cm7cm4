@@ -1,0 +1,21 @@
+../erpc/infra/erpc_message_buffer.hpp:87:14:uint8_t* erpc::MessageBuffer::get()	16	static
+../erpc/infra/erpc_message_buffer.hpp:101:14:uint16_t erpc::MessageBuffer::getLength() const	16	static
+../erpc/infra/erpc_message_buffer.hpp:108:14:uint16_t erpc::MessageBuffer::getUsed() const	16	static
+../erpc/infra/erpc_message_buffer.hpp:246:18:uint16_t erpc::MessageBuffer::Cursor::getRemaining() const	24	static
+../erpc/infra/erpc_message_buffer.hpp:253:18:uint16_t erpc::MessageBuffer::Cursor::getRemainingUsed() const	24	static
+../erpc/infra/erpc_message_buffer.hpp:376:18:virtual bool erpc::MessageBufferFactory::createServerBuffer()	16	static
+../erpc/infra/erpc_message_buffer.cpp:23:6:void erpc::MessageBuffer::setUsed(uint16_t)	24	static
+../erpc/infra/erpc_message_buffer.cpp:30:15:erpc_status_t erpc::MessageBuffer::read(uint16_t, void*, uint32_t)	32	static
+../erpc/infra/erpc_message_buffer.cpp:53:15:erpc_status_t erpc::MessageBuffer::write(uint16_t, const void*, uint32_t)	32	static
+../erpc/infra/erpc_message_buffer.cpp:76:15:erpc_status_t erpc::MessageBuffer::copy(const erpc::MessageBuffer*)	32	static
+../erpc/infra/erpc_message_buffer.cpp:89:6:void erpc::MessageBuffer::swap(erpc::MessageBuffer*)	32	static
+../erpc/infra/erpc_message_buffer.cpp:103:6:void erpc::MessageBuffer::Cursor::set(erpc::MessageBuffer*)	24	static
+../erpc/infra/erpc_message_buffer.cpp:114:10:uint8_t& erpc::MessageBuffer::Cursor::operator[](int)	32	static
+../erpc/infra/erpc_message_buffer.cpp:122:16:const uint8_t& erpc::MessageBuffer::Cursor::operator[](int) const	32	static
+../erpc/infra/erpc_message_buffer.cpp:130:24:erpc::MessageBuffer::Cursor& erpc::MessageBuffer::Cursor::operator+=(uint16_t)	32	static
+../erpc/infra/erpc_message_buffer.cpp:139:24:erpc::MessageBuffer::Cursor& erpc::MessageBuffer::Cursor::operator-=(uint16_t)	32	static
+../erpc/infra/erpc_message_buffer.cpp:148:24:erpc::MessageBuffer::Cursor& erpc::MessageBuffer::Cursor::operator++()	32	static
+../erpc/infra/erpc_message_buffer.cpp:157:24:erpc::MessageBuffer::Cursor& erpc::MessageBuffer::Cursor::operator--()	32	static
+../erpc/infra/erpc_message_buffer.cpp:166:15:erpc_status_t erpc::MessageBuffer::Cursor::read(void*, uint32_t)	32	static
+../erpc/infra/erpc_message_buffer.cpp:196:15:erpc_status_t erpc::MessageBuffer::Cursor::write(const void*, uint32_t)	48	static
+../erpc/infra/erpc_message_buffer.cpp:224:15:virtual erpc_status_t erpc::MessageBufferFactory::prepareServerBufferForSend(erpc::MessageBuffer*)	16	static

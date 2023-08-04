@@ -1,0 +1,18 @@
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_codec.hpp:447:5:erpc::CodecFactory::CodecFactory()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_server_common.hpp:63:5:erpc::ClientServerCommon::ClientServerCommon()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_server_common.hpp:103:10:void erpc::ClientServerCommon::setMessageBufferFactory(erpc::MessageBufferFactory*)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_server_common.hpp:110:10:void erpc::ClientServerCommon::setCodecFactory(erpc::CodecFactory*)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_server_common.hpp:117:20:erpc::CodecFactory* erpc::ClientServerCommon::getCodecFactory()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_server_common.hpp:126:10:void erpc::ClientServerCommon::setTransport(erpc::Transport*)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_client_server_common.hpp:133:17:erpc::Transport* erpc::ClientServerCommon::getTransport()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_server.hpp:110:5:erpc::Server::Server()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_simple_server.hpp:40:5:erpc::SimpleServer::SimpleServer()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_basic_codec.hpp:378:7:erpc::BasicCodecFactory::BasicCodecFactory()	16	static
+../erpc/setup/erpc_server_setup.cpp:35:15:ServerType* erpc_server_init(erpc_transport_t, erpc_mbf_t)	48	static
+../erpc/setup/erpc_server_setup.cpp:105:6:void erpc_server_deinit(erpc_server_t)	32	static
+../erpc/setup/erpc_server_setup.cpp:125:6:void erpc_add_service_to_server(erpc_server_t, void*)	24	static
+../erpc/setup/erpc_server_setup.cpp:134:6:void erpc_remove_service_from_server(erpc_server_t, void*)	32	static
+../erpc/setup/erpc_server_setup.cpp:144:6:void erpc_server_set_crc(erpc_server_t, uint32_t)	24	static
+../erpc/setup/erpc_server_setup.cpp:153:15:erpc_status_t erpc_server_run(erpc_server_t)	24	static
+../erpc/setup/erpc_server_setup.cpp:162:15:erpc_status_t erpc_server_poll(erpc_server_t)	24	static
+../erpc/setup/erpc_server_setup.cpp:171:6:void erpc_server_stop(erpc_server_t)	24	static

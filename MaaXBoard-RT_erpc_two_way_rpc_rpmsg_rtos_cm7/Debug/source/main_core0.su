@@ -1,0 +1,8 @@
+../source/main_core0.c:98:13:eRPCReadyEventHandler	0	static
+../source/main_core0.c:129:6:getNumberFromCore0	8	static
+../source/main_core0.c:255:13:server_task	16	static
+../source/main_core0.c:135:13:client_task	16	static
+../source/main_core0.c:106:6:SystemInitHook	8	static
+../source/main_core0.c:116:6:increaseNumber	0	static
+../source/main_core0.c:123:6:getGetCallbackFunction	0	static
+../source/main_core0.c:293:5:main	16	static

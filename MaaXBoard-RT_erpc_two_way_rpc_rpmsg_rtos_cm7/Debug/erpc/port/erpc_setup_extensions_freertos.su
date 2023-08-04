@@ -1,0 +1,7 @@
+../erpc/port/erpc_setup_extensions_freertos.cpp:24:6:void erpc::erpc_pre_cb_default()	32	static
+../erpc/port/erpc_setup_extensions_freertos.cpp:34:6:void erpc::erpc_post_cb_default()	16	static
+../erpc/port/erpc_setup_extensions_freertos.cpp:40:13:void erpc_call_timer_cb_default(TimerHandle_t)	16	static
+../erpc/port/erpc_setup_extensions_freertos.cpp:46:6:void erpc_init_call_progress_detection_default(erpc_call_timer_cb_default_t, uint32_t)	48	static
+../erpc/port/erpc_setup_extensions_freertos.cpp:69:6:void erpc_deinit_call_progress_detection_default()	24	static
+../erpc/port/erpc_setup_extensions_freertos.cpp:86:6:bool erpc_is_call_in_progress_default()	16	static
+../erpc/port/erpc_setup_extensions_freertos.cpp:98:6:void erpc_reset_in_progress_state_default()	24	static

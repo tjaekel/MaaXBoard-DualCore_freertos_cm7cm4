@@ -1,0 +1,23 @@
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_message_buffer.hpp:75:10:void erpc::MessageBuffer::set(uint8_t*, uint16_t)	24	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_message_buffer.hpp:87:14:uint8_t* erpc::MessageBuffer::get()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_message_buffer.hpp:101:14:uint16_t erpc::MessageBuffer::getLength() const	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_message_buffer.hpp:108:14:uint16_t erpc::MessageBuffer::getUsed() const	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_transport.hpp:42:5:erpc::Transport::Transport()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_transport.hpp:47:13:erpc::Transport::~Transport()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_transport.hpp:47:13:virtual erpc::Transport::~Transport()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_transport.hpp:80:18:virtual bool erpc::Transport::hasMessage()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_transport.hpp:87:18:virtual void erpc::Transport::setCrc16(erpc::Crc16*)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_transport.hpp:94:20:virtual erpc::Crc16* erpc::Transport::getCrc16()	16	static
+../erpc/transports/erpc_rpmsg_lite_base_transport.hpp:53:5:erpc::RPMsgBaseTransport::RPMsgBaseTransport()	16	static
+../erpc/transports/erpc_rpmsg_lite_base_transport.hpp:56:13:erpc::RPMsgBaseTransport::~RPMsgBaseTransport()	16	static
+../erpc/transports/erpc_rpmsg_lite_base_transport.hpp:56:13:virtual erpc::RPMsgBaseTransport::~RPMsgBaseTransport()	16	static
+../erpc/transports/erpc_rpmsg_lite_rtos_transport.hpp:131:18:virtual bool erpc::RPMsgRTOSTransport::hasMessage()	16	static
+../erpc/transports/erpc_rpmsg_lite_rtos_transport.cpp:30:1:erpc::RPMsgRTOSTransport::RPMsgRTOSTransport()	16	static
+../erpc/transports/erpc_rpmsg_lite_rtos_transport.cpp:41:1:erpc::RPMsgRTOSTransport::~RPMsgRTOSTransport()	24	static
+../erpc/transports/erpc_rpmsg_lite_rtos_transport.cpp:41:1:virtual erpc::RPMsgRTOSTransport::~RPMsgRTOSTransport()	16	static
+../erpc/transports/erpc_rpmsg_lite_rtos_transport.cpp:74:6:virtual void erpc::RPMsgRTOSTransport::setCrc16(erpc::Crc16*)	24	static
+../erpc/transports/erpc_rpmsg_lite_rtos_transport.cpp:80:8:virtual erpc::Crc16* erpc::RPMsgRTOSTransport::getCrc16()	16	static
+../erpc/transports/erpc_rpmsg_lite_rtos_transport.cpp:85:15:virtual erpc_status_t erpc::RPMsgRTOSTransport::init(uint32_t, uint32_t, void*, uint32_t, uint32_t)	32	static
+../erpc/transports/erpc_rpmsg_lite_rtos_transport.cpp:156:15:virtual erpc_status_t erpc::RPMsgRTOSTransport::init(uint32_t, uint32_t, void*, uint32_t, void (*)(), char*)	32	static
+../erpc/transports/erpc_rpmsg_lite_rtos_transport.cpp:254:15:virtual erpc_status_t erpc::RPMsgRTOSTransport::receive(erpc::MessageBuffer*)	48	static
+../erpc/transports/erpc_rpmsg_lite_rtos_transport.cpp:268:15:virtual erpc_status_t erpc::RPMsgRTOSTransport::send(erpc::MessageBuffer*)	40	static

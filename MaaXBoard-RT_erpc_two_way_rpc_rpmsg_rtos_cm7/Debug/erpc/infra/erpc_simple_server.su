@@ -1,0 +1,18 @@
+../erpc/infra/erpc_message_buffer.hpp:45:5:erpc::MessageBuffer::MessageBuffer()	16	static
+../erpc/infra/erpc_message_buffer.hpp:87:14:uint8_t* erpc::MessageBuffer::get()	16	static
+../erpc/infra/erpc_codec.hpp:78:20:erpc::MessageBuffer* erpc::Codec::getBuffer()	16	static
+../erpc/infra/erpc_client_server_common.hpp:96:5:erpc::ClientServerCommon::~ClientServerCommon()	16	static
+../erpc/infra/erpc_client_manager.h:208:12:erpc::Codec* erpc::RequestContext::getCodec()	16	static
+../erpc/infra/erpc_client_manager.h:215:14:uint32_t erpc::RequestContext::getSequence() const	16	static
+../erpc/infra/erpc_server.hpp:119:13:erpc::Server::~Server()	16	static
+../erpc/infra/erpc_server.hpp:119:13:virtual erpc::Server::~Server()	16	static
+../erpc/infra/erpc_simple_server.cpp:19:6:void erpc::SimpleServer::disposeBufferAndCodec(erpc::Codec*)	24	static
+../erpc/infra/erpc_simple_server.cpp:31:15:erpc_status_t erpc::SimpleServer::runInternal()	72	static
+../erpc/infra/erpc_simple_server.cpp:51:15:erpc_status_t erpc::SimpleServer::runInternalBegin(erpc::Codec**, erpc::MessageBuffer&, erpc::message_type_t&, uint32_t&, uint32_t&, uint32_t&)	56	static
+../erpc/infra/erpc_simple_server.cpp:119:15:erpc_status_t erpc::SimpleServer::runInternalEnd(erpc::Codec*, erpc::message_type_t, uint32_t, uint32_t, uint32_t)	48	static
+../erpc/infra/erpc_simple_server.cpp:154:15:virtual erpc_status_t erpc::SimpleServer::run()	24	static
+../erpc/infra/erpc_simple_server.cpp:165:15:virtual erpc_status_t erpc::SimpleServer::run(erpc::RequestContext&)	72	static
+../erpc/infra/erpc_simple_server.cpp:215:15:virtual erpc_status_t erpc::SimpleServer::poll()	24	static
+../erpc/infra/erpc_simple_server.cpp:238:6:virtual void erpc::SimpleServer::stop()	16	static
+../erpc/infra/erpc_simple_server.hpp:32:7:erpc::SimpleServer::~SimpleServer()	16	static
+../erpc/infra/erpc_simple_server.hpp:32:7:virtual erpc::SimpleServer::~SimpleServer()	16	static

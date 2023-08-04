@@ -1,0 +1,16 @@
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_codec.hpp:78:20:erpc::MessageBuffer* erpc::Codec::getBuffer()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_codec.hpp:104:19:erpc_status_t erpc::Codec::getStatus()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_codec.hpp:112:10:bool erpc::Codec::isStatusOk()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_codec.hpp:119:10:void erpc::Codec::updateStatus(erpc_status_t)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_server.hpp:47:5:erpc::Service::Service(uint32_t)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_server.hpp:56:13:erpc::Service::~Service()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_server.hpp:56:13:virtual erpc::Service::~Service()	16	static
+../erpc/service/erpc_two_way_rpc_Core1Interface_server.h:39:5:Core1Interface_service::Core1Interface_service()	16	static
+../erpc/service/erpc_two_way_rpc_Core1Interface_server.cpp:40:15:virtual erpc_status_t Core1Interface_service::handleInvocation(uint32_t, uint32_t, erpc::Codec*, erpc::MessageBufferFactory*)	32	static
+../erpc/service/erpc_two_way_rpc_Core1Interface_server.cpp:74:15:erpc_status_t Core1Interface_service::increaseNumber_shim(erpc::Codec*, erpc::MessageBufferFactory*, uint32_t)	48	static
+../erpc/service/erpc_two_way_rpc_Core1Interface_server.cpp:117:15:erpc_status_t Core1Interface_service::getGetCallbackFunction_shim(erpc::Codec*, erpc::MessageBufferFactory*, uint32_t)	48	static
+../erpc/service/erpc_two_way_rpc_Core1Interface_server.cpp:166:15:erpc_status_t Core1Interface_service::getNumberFromCore0_shim(erpc::Codec*, erpc::MessageBufferFactory*, uint32_t)	48	static
+../erpc/service/erpc_two_way_rpc_Core1Interface_server.cpp:206:16:void* create_Core1Interface_service()	24	static
+../erpc/service/erpc_two_way_rpc_Core1Interface_server.cpp:227:6:void destroy_Core1Interface_service(erpc_service_t)	24	static
+../erpc/service/erpc_two_way_rpc_Core1Interface_server.h:36:7:Core1Interface_service::~Core1Interface_service()	16	static
+../erpc/service/erpc_two_way_rpc_Core1Interface_server.h:36:7:virtual Core1Interface_service::~Core1Interface_service()	16	static

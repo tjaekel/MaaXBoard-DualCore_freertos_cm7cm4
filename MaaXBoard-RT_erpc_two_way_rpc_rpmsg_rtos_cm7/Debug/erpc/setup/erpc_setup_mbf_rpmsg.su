@@ -1,0 +1,21 @@
+c:\nxp\mcuxpressoide_11.7.1_9221\ide\plugins\com.nxp.mcuxpresso.tools.win32_11.7.1.202301190959\tools\arm-none-eabi\include\c++\10.3.1\new:174:33:void* operator new(std::size_t, void*)	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_message_buffer.hpp:60:5:erpc::MessageBuffer::MessageBuffer(uint8_t*, uint16_t)	24	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_message_buffer.hpp:87:14:uint8_t* erpc::MessageBuffer::get()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_message_buffer.hpp:357:5:erpc::MessageBufferFactory::MessageBufferFactory()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_message_buffer.hpp:362:13:erpc::MessageBufferFactory::~MessageBufferFactory()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_message_buffer.hpp:362:13:virtual erpc::MessageBufferFactory::~MessageBufferFactory()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\transports/erpc_rpmsg_lite_base_transport.hpp:63:33:rpmsg_lite_instance* erpc::RPMsgBaseTransport::get_rpmsg_lite_instance()	16	static
+../erpc/setup/erpc_setup_mbf_rpmsg.cpp:38:5:RPMsgMessageBufferFactory::RPMsgMessageBufferFactory(rpmsg_lite_instance*)	16	static
+../erpc/setup/erpc_setup_mbf_rpmsg.cpp:43:13:RPMsgMessageBufferFactory::~RPMsgMessageBufferFactory()	16	static
+../erpc/setup/erpc_setup_mbf_rpmsg.cpp:43:13:virtual RPMsgMessageBufferFactory::~RPMsgMessageBufferFactory()	16	static
+../erpc/setup/erpc_setup_mbf_rpmsg.cpp:50:27:virtual erpc::MessageBuffer RPMsgMessageBufferFactory::create()	32	static
+../erpc/setup/erpc_setup_mbf_rpmsg.cpp:65:18:virtual void RPMsgMessageBufferFactory::dispose(erpc::MessageBuffer*)	32	static
+../erpc/setup/erpc_setup_mbf_rpmsg.cpp:80:27:virtual erpc_status_t RPMsgMessageBufferFactory::prepareServerBufferForSend(erpc::MessageBuffer*)	40	static
+../erpc/setup/erpc_setup_mbf_rpmsg.cpp:98:18:virtual bool RPMsgMessageBufferFactory::createServerBuffer()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_manually_constructed.hpp:51:7:erpc::ManuallyConstructed<RPMsgMessageBufferFactory>::ManuallyConstructed()	16	static
+../erpc/setup/erpc_setup_mbf_rpmsg.cpp:110:12:ErpcMessageBufferFactory* erpc_mbf_rpmsg_init(erpc_transport_t)	24	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_manually_constructed.hpp:98:10:void erpc::ManuallyConstructed<T>::construct(const A1&) [with A1 = rpmsg_lite_instance*; T = RPMsgMessageBufferFactory]	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_manually_constructed.hpp:56:8:T* erpc::ManuallyConstructed<T>::get() [with T = RPMsgMessageBufferFactory]	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\infra/erpc_manually_constructed.hpp:151:10:void erpc::ManuallyConstructed<T>::destroy() [with T = RPMsgMessageBufferFactory]	16	static
+../erpc/setup/erpc_setup_mbf_rpmsg.cpp:114:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../erpc/setup/erpc_setup_mbf_rpmsg.cpp:114:1:cpp)	8	static

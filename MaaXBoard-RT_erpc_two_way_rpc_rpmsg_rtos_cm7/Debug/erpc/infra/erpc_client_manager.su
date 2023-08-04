@@ -1,0 +1,21 @@
+../erpc/infra/erpc_message_buffer.hpp:45:5:erpc::MessageBuffer::MessageBuffer()	16	static
+../erpc/infra/erpc_message_buffer.hpp:87:14:uint8_t* erpc::MessageBuffer::get()	16	static
+../erpc/infra/erpc_codec.hpp:78:20:erpc::MessageBuffer* erpc::Codec::getBuffer()	16	static
+../erpc/infra/erpc_codec.hpp:112:10:bool erpc::Codec::isStatusOk()	16	static
+../erpc/infra/erpc_codec.hpp:119:10:void erpc::Codec::updateStatus(erpc_status_t)	16	static
+../erpc/infra/erpc_client_server_common.hpp:96:5:erpc::ClientServerCommon::~ClientServerCommon()	16	static
+C:\Users\tj925438\Documents\MCUXpressoIDE_11.7.1_9221\workspace\MaaXBoard-RT_erpc_two_way_rpc_rpmsg_rtos_cm7\erpc\port/erpc_threading.h:174:24:static void* erpc::Thread::getCurrentThreadId()	8	static
+../erpc/infra/erpc_client_manager.h:76:13:erpc::ClientManager::~ClientManager()	16	static
+../erpc/infra/erpc_client_manager.h:76:13:virtual erpc::ClientManager::~ClientManager()	16	static
+../erpc/infra/erpc_client_manager.h:196:5:erpc::RequestContext::RequestContext(uint32_t, erpc::Codec*, bool)	24	static
+../erpc/infra/erpc_client_manager.h:208:12:erpc::Codec* erpc::RequestContext::getCodec()	16	static
+../erpc/infra/erpc_client_manager.h:215:14:uint32_t erpc::RequestContext::getSequence() const	16	static
+../erpc/infra/erpc_client_manager.h:222:10:bool erpc::RequestContext::isOneway() const	16	static
+../erpc/infra/erpc_client_manager.cpp:27:16:virtual erpc::RequestContext erpc::ClientManager::createRequest(bool)	32	static
+../erpc/infra/erpc_client_manager.cpp:35:6:virtual void erpc::ClientManager::performRequest(erpc::RequestContext&)	24	static
+../erpc/infra/erpc_client_manager.cpp:59:6:virtual void erpc::ClientManager::performClientRequest(erpc::RequestContext&)	32	static
+../erpc/infra/erpc_client_manager.cpp:112:6:virtual void erpc::ClientManager::performNestedClientRequest(erpc::RequestContext&)	40	static
+../erpc/infra/erpc_client_manager.cpp:161:6:virtual void erpc::ClientManager::verifyReply(erpc::RequestContext&)	48	static
+../erpc/infra/erpc_client_manager.cpp:185:8:erpc::Codec* erpc::ClientManager::createBufferAndCodec()	40	static
+../erpc/infra/erpc_client_manager.cpp:208:6:virtual void erpc::ClientManager::releaseRequest(erpc::RequestContext&)	24	static
+../erpc/infra/erpc_client_manager.cpp:217:6:void erpc::ClientManager::callErrorHandler(erpc_status_t, uint32_t)	24	static

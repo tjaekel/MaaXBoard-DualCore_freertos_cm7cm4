@@ -1,0 +1,9 @@
+../mcmgr/mcmgr_internal_core_api_imxrt1170.c:45:16:mcmgr_early_init_internal	8	static
+../mcmgr/mcmgr_internal_core_api_imxrt1170.c:61:16:mcmgr_late_init_internal	0	static
+../mcmgr/mcmgr_internal_core_api_imxrt1170.c:90:16:mcmgr_start_core_internal	0	static
+../mcmgr/mcmgr_internal_core_api_imxrt1170.c:123:16:mcmgr_get_startup_data_internal	0	static
+../mcmgr/mcmgr_internal_core_api_imxrt1170.c:145:16:mcmgr_stop_core_internal	0	static
+../mcmgr/mcmgr_internal_core_api_imxrt1170.c:151:16:mcmgr_get_core_property_internal	0	static
+../mcmgr/mcmgr_internal_core_api_imxrt1170.c:242:14:mcmgr_get_current_core_internal	0	static
+../mcmgr/mcmgr_internal_core_api_imxrt1170.c:269:16:mcmgr_trigger_event_internal	8	static
+../mcmgr/mcmgr_internal_core_api_imxrt1170.c:299:6:MU_Rx3FullFlagISR	8	static
